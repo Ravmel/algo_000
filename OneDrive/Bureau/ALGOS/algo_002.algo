@@ -1,0 +1,5 @@
+ALGORITHM bonjour
+
+BEGIN
+    write("Bonjour")
+END

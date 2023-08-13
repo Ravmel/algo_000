@@ -1,0 +1,40 @@
+ALGORITHM three_nb_add
+VAR
+    num1, num2, num3 : INTEGER;
+    sum : INTEGER := 0;
+BEGIN
+    Read(num1)
+    Read(num2)
+    Read(num3)
+    sum := num1 + num2 + num3;
+    write(sum)
+END
+
+/*Algorithme qui détecte et compte les voyelles dans une phrase
+Dans cet exercice corrigé d'algorithmique, nous allons écrire un algorithme qui permet de détecter et compter les voyelles présentes dans une chaîne de caractères saisie par l'utilisateur. Le traitement qui consiste au recensement des voyelles sera assuré à l'aide d'une fonction (ou sous-programme).
+
+Le traitement principal de l'algorithme sera fait par cette fonction-là qui accepte comme argument la chaîne de caractères à évaluer, et retourne le nombre de voyelles que celle-ci contient.
+
+Notez qu'un tel traitement peut aussi être assuré à l'aide d'une procédure ou même sans vraiment utiliser un sous-programme. Cependant, l'utilisation d'une fonction semble être une bonne solution surtout si on veut intégrer ce genre de traitement dans un algorithme (ou programme) plus grand.*/
+
+/*Exercice 9.3
+Ecrivez un algorithme qui demande une phrase à l’utilisateur et qui affiche à l’écran le nombre de mots de cette phrase. On suppose que les mots ne sont séparés que par des espaces (et c'est déjà un petit peu moins bête).
+
+Là, on est obligé de compter par une boucle le nombre d'espaces de la phrase, et on en déduit le nombre de mots. La boucle examine les caractères de la phrase un par un, du premier au dernier, et les compare à l'espace.
+Variable Bla en Caractère
+Variables Nb, i en Entier
+Debut
+Ecrire "Entrez une phrase : "
+Lire Bla
+Nb ← 0
+Pour i ← 1 à Len(Bla)
+  Si Mid(Bla, i , 1) = " " Alors
+    Nb ← Nb + 1
+  FinSi
+i suivant
+Ecrire "Cette phrase compte ", Nb + 1, " mots"
+Fin*/
+
+
+
+
